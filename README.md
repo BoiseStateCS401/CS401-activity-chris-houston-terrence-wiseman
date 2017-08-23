@@ -5,6 +5,13 @@
 * Create a well-designed web page using semantic HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).
 * Apply techniques for validating and debugging web pages.
 
+## Setup
+* You can work on your html/css files locally and then upload to this team
+  repository when you are done. There is an editor in GitHub, but it is pretty
+  "laggy"
+* To make your site available, go to "Settings->GitHub Pages" and change the
+  source to "master branch".
+
 ## HTML Requirements
 You will start with HTML and add style with CSS after you have a valid, semantic HTML document.
 Create your page in a file called index.html. Your webpage must have the following elements.
