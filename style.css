@@ -1,0 +1,54 @@
+
+body {
+    background-color: lightgray;
+    font-family: Calibri;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p, li {
+    color: red;
+}
+
+em {
+    color: blue;
+}
+
+li {
+    list-style-type: square;
+    line-height: 30px;
+}
+
+:link {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 25%;
+}
+
+ol li {
+    list-style-type: circle;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+pre {
+    background-color: black;
+    color: green;
+    border: solid;
+}
+
+table {
+    border: solid;
+    padding: 5px;   
+}
