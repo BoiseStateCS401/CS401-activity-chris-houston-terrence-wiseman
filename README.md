@@ -1,5 +1,7 @@
 # My First Website
 
+https://boisestatecs401.github.io/CS401-activity-chris-houston-terrence-wiseman/
+
 ## Learning Objectives
 
 * Create a well-designed web page using semantic HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).
