@@ -1,46 +1,89 @@
+/* Navigation Bar */
+nav {
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    display:inline;
+    margin: 25px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    color: white;
+}
+
+nav :visited {
+    color:white;
+}
+
+section {
+    background-color:#DBDBDB;
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 15px 25%;
+    border-radius: 2%;
+    border: 1px solid black;
+}
+
+aside {
+    background-color:#DBDBDB;
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 15px 0 0 2%;
+    width: 300px;
+    border-radius: 2%;
+    border: 1px solid black;
+    float: left;
+}
+
 
 body {
-    background-color: lightgray;
+    background-color: #F2F2F2;
     font-family: Calibri;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Times New Roman";
     text-align: center;
 }
 
+
 h3{
     font-size: 40px;
+    text-decoration: underline;
 }
 
-p, li {
-    color: red;
-}
-
-em {
-    color: blue;
-}
 
 li {
-    list-style-type: square;
     line-height: 30px;
 }
+
 
 :link {
     text-decoration: none;
 }
 
+
 img {
     border-radius: 25%;
 }
+
 
 ol li {
     list-style-type: circle;
 }
 
+
 img:hover {
     opacity: .5;
 }
+
 
 pre {
     background-color: black;
@@ -48,7 +91,21 @@ pre {
     border: solid;
 }
 
+
 table {
-    border: solid;
-    padding: 5px;   
+    margin: 20px 20px;  
+}
+
+
+tr td {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: black;
+    color: #DBDBDB;
+    text-align: center;
 }

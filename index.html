@@ -6,51 +6,59 @@
     <meta charset="UTF-8">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="http://cliparting.com/wp-content/uploads/2016/05/Smiley-face-clipart-cliparts-for-you.jpg" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title>CS401 Assignment</title>
 </head>
 
 
+
 <body>
-    <h1> Chris Houston -- Terrence Wiseman</h1>
-    <hr>
-
-    <h3>HTML</h3>
-    <p> Stands for "Hypertext Markup Language." HTML is the language used to create webpages. "Hypertext" refers to the hyperlinks that an HTML page may contain. "Markup language" refers to the way tags are used to define the page layout and elements within the page. </p>
-
-    <h3>CSS</h3>
-    <p>Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of web pages that previously could only be defined in a page's HTML. CSS can be used seperately in a .css file or inside a HTML file.</p>
-
-    <h3>JavaScript</h3>
-    <p>JavaScript is a programming language used on the client side to make the web page more interactive. It can run on the web page without having to contact the server.</p>
-
-    <hr>
-
-    <h3>Helpful Links</h3>
-    <ul>
-        <li><a href="https://www.w3schools.com/html/" target="_blank">W3 Schools - HTML</a></li>
-        <li><a href="https://www.tutorialspoint.com/html/" target="_blank">Tutorial Spot - HTML</a></li>
-        <li><a href="https://www.w3schools.com/css/" target="_blank">W3 Schools - CSS</a></li>
-    </ul>
-
-    <hr>
-	
-	<p>
-    <strong>Harambe (Strong text)</strong>
-	</p>
-    <a href="https://en.wikipedia.org/wiki/Killing_of_Harambe">
-        <img src="https://i.ytimg.com/vi/oqupUsjbpdM/maxresdefault.jpg" alt="RIP Harambe" width="400" height="400">
-    </a>
-
-	<p>
-    <em>"Unicorn" (Emphasized text)</em>
-	</p>
-    <a href="https://en.wikipedia.org/wiki/Unicorn">
-        <img src="http://1.media.collegehumor.cvcdn.com/22/83/b6286ce16937b818cdb02831f0430572.jpg" alt="A real life unicorn" width="400" height="400">
-    </a>
 
 
-    <hr>
-    <pre>
+    <header>
+        <h1> Chris Houston -- Terrence Wiseman</h1>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="animals.html">Animals</a></li>
+        </ul>
+    </nav>
+
+
+    <aside>
+        <p>This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!! This is a side bar!!!This is a side bar!!! This is a side bar!!!This is a side bar!!!This is a side bar!!!This is a side bar!!! </p>
+    </aside>
+
+
+    <section>
+        <h3>HTML</h3>
+        <p> Stands for "Hypertext Markup Language." HTML is the language used to create webpages. "Hypertext" refers to the hyperlinks that an HTML page may contain. "Markup language" refers to the way tags are used to define the page layout and elements within the page. </p>
+
+        <h3>CSS</h3>
+        <p>Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of web pages that previously could only be defined in a page's HTML. CSS can be used seperately in a .css file or inside a HTML file.</p>
+
+        <h3>JavaScript</h3>
+        <p>JavaScript is a programming language used on the client side to make the web page more interactive. It can run on the web page without having to contact the server.</p>
+
+    </section>
+
+
+    <section>
+        <h3>Helpful Links</h3>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">W3 Schools - HTML</a></li>
+            <li><a href="https://www.tutorialspoint.com/html/" target="_blank">Tutorial Spot - HTML</a></li>
+            <li><a href="https://www.w3schools.com/css/" target="_blank">W3 Schools - CSS</a></li>
+        </ul>
+    </section>
+
+
+
+    <section>
+        <pre>
         public class HelloWorld {
 
             public static void main(String[] args) {
@@ -59,43 +67,52 @@
             }
         }
         </pre>
+    </section>
 
-    <hr>
-    <table>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-        </tr>
-        <tr>
-            <td>Chris</td>
-            <td>Houston</td>
-        </tr>
-        <tr>
-            <td>Terrence</td>
-            <td>Wiseman</td>
-        </tr>
-    </table>
+    <section class="mytable">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Chris</td>
+                <td>Houston</td>
+            </tr>
+            <tr>
+                <td>Terrence</td>
+                <td>Wiseman</td>
+            </tr>
+        </table>
+    </section>
 
-    <hr>
 
-    <h3>Questions</h3>
-    <ul>
-        <li>Block Elements - Headers (H1), Pre, P, HR, Body </li>
-        <li>Inline Elements - A(links), IMG </li>
-        <li>How do we know - Looking at the "Styles" in the inspector </li>
-        <li>Default margin of body - 8px</li>
-        <li>Default font size and weight of H1 - Size: 2em Weight: bold</li>
-        <li>Load time - 15ms </li>
-        <li>Response status of reuqested resources - Hover over the little blue block in the inspector to see the times and other info</li>
-        <li>Sublist
-            <ol>
-                <li>CSS response: 4ms (network -> CSS)</li>
-                <li>Another item</li>
-            </ol>
-        </li>
-    </ul>
+    <section>
+        <h3>Questions</h3>
+        <ul>
+            <li>Block Elements - Headers (H1), Pre, P, HR, Body </li>
+            <li>Inline Elements - A(links), IMG </li>
+            <li>How do we know - Looking at the "Styles" in the inspector </li>
+            <li>Default margin of body - 8px</li>
+            <li>Default font size and weight of H1 - Size: 2em Weight: bold</li>
+            <li>Load time - 15ms </li>
+            <li>Response status of reuqested resources - Hover over the little blue block in the inspector to see the times and other info</li>
+            <li>Sublist
+                <ol>
+                    <li>CSS response: 4ms (network -> CSS)</li>
+                    <li>Another item</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
 
-    <hr> &copy; Chris Houston -- Terrence Wiseman
+
+
+
+    <footer>
+        <p>&copy; Chris Houston -- Terrence Wiseman</p>
+    </footer>
+
 
 </body>
 
